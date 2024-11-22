@@ -1,0 +1,24 @@
+{
+  "name": "node-jose",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "node-jose": "^2.2.0"
+  },
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=\"$NODE_OPTIONS --experimental-vm-modules\" jest"
+  },
+  "author": "nikitimi",
+  "license": "ISC",
+  "description": "Output PEM Private Key from JWK",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "cross-env": "^7.0.3",
+    "jest": "^29.7.0",
+    "zod": "^3.23.8"
+  },
+  "jest": {
+    "transform": {}
+  }
+}
